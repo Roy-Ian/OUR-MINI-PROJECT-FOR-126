@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;  /* Dark background */
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered Container */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Headings */
+h1 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+/* Video Stream */
+.video-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Image Section */
+.image-section {
+    margin-top: 20px;
+}
+
+.image-section h3 {
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Buttons */
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center them */
+    margin-top: 20px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px 0;  /* Space between buttons */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 200px; /* Set a fixed width for uniformity */
+    text-align: center;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#download {
+    background: #28a745;
+    display: none; /* Initially hidden */
+}
+
+#download:hover {
+    background: #1e7e34;
+}

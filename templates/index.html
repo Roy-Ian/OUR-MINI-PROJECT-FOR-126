@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Scanner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📖 Scanner 2000</h1>
+
+        <!-- Webcam Video Stream -->
+        <div class="video-container">
+            <video id="video" autoplay></video>
+            <button id="capture">📸 Capture Image</button>
+        </div>
+
+        <!-- Captured Image -->
+        <div class="image-section">
+            <h3>📷 Captured Image</h3>
+            <canvas id="canvas" style="display: none;"></canvas>
+            <img id="preview" src="#" alt="Captured Image">
+        </div>
+
+        <!-- Processed Image -->
+        <div class="image-section">
+            <h3>📄 Processed Image</h3>
+            <img id="processedImage" src="#" alt="Processed Image">
+        </div>
+
+        <!-- Buttons -->
+        <div class="button-container">
+            <button id="upload">⬆ Convert</button>
+            <button id="download" style="display:none;">⬇ Download PDF</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
